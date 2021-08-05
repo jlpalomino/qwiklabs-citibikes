@@ -2,7 +2,7 @@ view: ny_citibike_trips {
   sql_table_name: `bigquery_public_data_looker.ny_citibike_trips`
     ;;
 
-  dimension: bikeid {
+  dimension: bike_id {
     primary_key: yes
     type: number
     value_format_name: id
